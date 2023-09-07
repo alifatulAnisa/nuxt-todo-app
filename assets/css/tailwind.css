@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply py-2 px-4 bg-blue-400 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+
+  .btn-option {
+    @apply py-2 px-4 bg-white border rounded-xl text-black
+  }
+
+  .input-text {
+    @apply p-2 rounded-xl border bg-white
+  }
+
+  .auth-text {
+    @apply font-bold text-2xl text-black
+  }
+
+  .auth-sub-text {
+    @apply text-sm mt-4 mb-8 text-black
+  }
+
+  .auth-question {
+    @apply text-xs flex justify-between items-center text-black
+  }
+
+  .side-menu {
+    @apply flex flex-col mb-2
+  }
+
+  .custom-button {
+    @apply bg-blue-500 text-white rounded-md;
+  }
+
+  .label-form {
+    @apply font-bold text-black
+  }
+}

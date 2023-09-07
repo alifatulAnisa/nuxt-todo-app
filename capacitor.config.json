@@ -1,0 +1,6 @@
+{
+  "appId": "todoapp.ionic",
+  "appName": "todoapp-ionic",
+  "webDir": ".output/public",
+  "bundleWebRuntime": false
+}
